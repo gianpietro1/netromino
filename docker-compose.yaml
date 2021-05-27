@@ -1,0 +1,22 @@
+version: '3.6'
+
+services:
+  netromino:
+    image: netromino:dev
+    container_name: netromino
+    restart: unless-stopped
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    environment:
+      # NGINX-PROXY ENVIRONMENT VARIABLES: UPDATE ME
+      - VIRTUAL_HOST=netromino.whitestack.com
+      - VIRTUAL_PORT=3000
+        #- LETSENCRYPT_HOST=data.openpolitica.com
+        #- LETSENCRYPT_EMAIL=odp
+      # END NGINX-PROXY ENVIRONMENT VARIABLES
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
