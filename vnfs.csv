@@ -1,0 +1,9 @@
+id,name,cpus,affinity
+1,Oracle PCRF Worker 1,32,worker
+2,Oracle PCRF Worker 2,32,worker
+3,Oracle PCRF Worker 3,32,worker
+4,Ericsson vIMS Comp1,8,vIMSag
+5,Ericsson vIMS Comp2,8,vIMSag
+6,Ericsson vIMS Comp3,8,vIMSag
+7,vDNS01,2,dns
+8,vDNS02,2,dns

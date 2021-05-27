@@ -1,0 +1,39 @@
+.titles {
+  font-size: 1rem !important;
+}
+
+.thinfo {
+  width: 7rem;
+  font-size: 0.8rem;
+  text-align: center !important;
+}
+
+.thdata {
+  font-size: 0.45rem;
+  font-weight: bold;
+  text-align: center !important;
+  padding: 0 !important;
+}
+
+.thblue {
+  background-color: #2185d0 !important;
+  color: white !important;
+}
+
+.thblack {
+  background-color: #3a3b3c !important;
+  color: white !important;
+  border: 1px solid grey;
+}
+
+.thinner {
+  width: 4.5rem;
+  padding: 0;
+  text-align: center;
+}
+
+.tdstrong {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: midnightblue;
+}
